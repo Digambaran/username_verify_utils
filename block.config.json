@@ -1,0 +1,13 @@
+{
+  "name": "username_verify_utils",
+  "type": "shared-fn",
+  "source": {
+    "https": "https://github.com/Digambaran/username_verify_utils",
+    "ssh": "git@github.com:Digambaran/username_verify_utils.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
